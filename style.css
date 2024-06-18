@@ -1,0 +1,39 @@
+header {
+    display: flex;
+    background-color: #1f2937;
+    color: #f9faf8;
+    justify-content: space-around;
+}
+
+header a {
+    justify-content: flex-end;
+}
+
+div {
+    display: flex;
+}
+
+.one {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.two {
+    color: #1f2937;
+}
+
+.three {
+    background-color: #e5e7eb;
+    color: #1f2937;
+}
+
+.four {
+    color: #1f2937;
+}
+
+footer {
+    display: flex;
+    background-color: #1f2937;
+    color: #f9faf8;
+    justify-content: center;
+}
