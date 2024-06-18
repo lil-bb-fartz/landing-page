@@ -2,6 +2,13 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+button {
+    background-color: rgb(105, 105, 249);
+    color: #f9faf8;
+}
+
+/* HEADER */
+
 header {
     display: flex;
     background-color: #1f2937;
@@ -17,12 +24,17 @@ header {
 header a {
     justify-content: flex-end;
     font-size: smaller;
-    gap: 3px;
+}
+
+header .links {
+    gap: 8px;
 }
 
 div {
     display: flex;
 }
+
+/*Div One, This Website is awesome*/
 
 .one {
     background-color: #1f2937;
@@ -34,42 +46,69 @@ div {
     flex-direction: column;
 }
 
-.left button {
-    background-color: rgb(105, 105, 249);
-    color: #f9faf8;
-}
-
 .right {
     background-color: #666666;
     justify-items: space-around;
 }
 
+/*Div Two, Some Random information*/
+
 .two {
     color: #1f2937;
-    justify-items: center;
-}
-
-.information {
-    align-items: center;
     justify-content: center;
-    justify-items: center;
     flex-direction: column;
 }
 
-.infoimage {
-    flex-direction: column;
-    font-size: smaller;
-    border-width: 4px;
+.some {
+    font-weight: bold;
+    justify-content: center;
 }
+
+.images {
+    flex-direction: row;
+    justify-content: center;
+    gap: 8px;
+}
+
+.images img {
+    border: solid;
+    border-color: #3882f6;
+    height: 100px;
+    width: 100px;
+}
+
+.img {
+    flex-direction: column;
+    font-size: small;
+    padding: 0px;
+}
+
+.img p {
+    inline-size: 100px;
+}
+
+/*Div Three,*/
 
 .three {
     background-color: #e5e7eb;
     color: #1f2937;
+    flex-direction: column;
+    align-items: center;
 }
+
+/*Div Four,*/
 
 .four {
     color: #1f2937;
+    justify-content: center;
 }
+
+.call {
+    background-color: rgb(105, 105, 249);
+    color: #f9faf8;
+}
+
+/*Footer*/
 
 footer {
     display: flex;
