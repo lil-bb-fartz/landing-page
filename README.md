@@ -11,6 +11,12 @@ Added Header. Footer. Divs 1 thru 4.
 Added anchor tags for navigation buttons in Header.
 
 ---------CSS-----
+
+June 22, 2024
+Added border-radius to CSS to round some corners.
+Align and style buttons.
+
+
 June 18, 2024
 Set background colours for existing containers.
 Set text colours.

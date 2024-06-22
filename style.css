@@ -2,9 +2,16 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+div {
+    display: flex;
+}
+
 button {
+    border-radius: 5px;
     background-color: rgb(105, 105, 249);
     color: #f9faf8;
+    height: 20px;
+    width: 70px;
 }
 
 /* HEADER */
@@ -30,10 +37,6 @@ header .links {
     gap: 8px;
 }
 
-div {
-    display: flex;
-}
-
 /*Div One, This Website is awesome*/
 
 .one {
@@ -46,9 +49,15 @@ div {
     flex-direction: column;
 }
 
+.alt {
+    justify-content: center;
+    align-content: center;
+}
+
 .right {
     background-color: #666666;
     justify-items: space-around;
+    font-size: smaller;
 }
 
 /*Div Two, Some Random information*/
@@ -73,6 +82,7 @@ div {
 .images img {
     border: solid;
     border-color: #3882f6;
+    border-radius: 25px;
     height: 100px;
     width: 100px;
 }
@@ -99,13 +109,21 @@ div {
 /*Div Four,*/
 
 .four {
-    color: #1f2937;
+    color: #e5e7eb;
     justify-content: center;
+    align-items: center;
 }
 
 .call {
     background-color: rgb(105, 105, 249);
     color: #f9faf8;
+    height: 120px;
+    width: 840px
+    border-radius: 15px;
+}
+
+.signup {
+    align-items: center;
 }
 
 /*Footer*/
