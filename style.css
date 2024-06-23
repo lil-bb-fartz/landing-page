@@ -7,11 +7,17 @@ div {
 }
 
 button {
-    border-radius: 5px;
+    border: none;
+    border-radius: 12px;
     background-color: rgb(105, 105, 249);
     color: #f9faf8;
     height: 20px;
     width: 70px;
+}
+
+button:hover {
+    background-color: #f9faf8;
+    color: rgb(105, 105, 249);
 }
 
 /* HEADER */
@@ -26,27 +32,58 @@ header {
 
 .logo {
     font-weight: bold;
+    font-size: 24px;
 }
 
-header a {
+.navlist {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    gap: 12px;
     justify-content: flex-end;
     font-size: smaller;
 }
 
-header .links {
-    gap: 8px;
+.navlist a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 /*Div One, This Website is awesome*/
 
 .one {
+    display: flex;
     background-color: #1f2937;
     color: #f9faf8;
     justify-content: center;
 }
 
-.left {
+.awesome {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.card {
     flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.website {
+    font-weight: bolder;
+    font-size: 48px;
+    color: #f9faf8;
+    margin-bottom: 0px;
+    inline-size: 400px;
+}
+
+.subtext {
+    font-size: 19px;
+    color: #e5e7eb;
+    justify-content: flex-start;
+    margin-top: 0px;
+    inline-size: 400px;
 }
 
 .alt {
@@ -58,6 +95,13 @@ header .links {
     background-color: #666666;
     justify-items: space-around;
     font-size: smaller;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.right p {
+    font-size: larger;
+    font-weight: bold;
 }
 
 /*Div Two, Some Random information*/
@@ -100,10 +144,25 @@ header .links {
 /*Div Three,*/
 
 .three {
+    display: flex;
     background-color: #e5e7eb;
     color: #1f2937;
     flex-direction: column;
     align-items: center;
+}
+
+.quote {
+    font-style: italic;
+    flex: 1;
+    inline-size: 60%;
+}
+
+.thor {
+    align-self: flex-end;
+    justify-content: space-around;
+    font-weight: bold;
+    justify-content: flex-end;
+    margin-right: 30%;
 }
 
 /*Div Four,*/
@@ -115,15 +174,46 @@ header .links {
 }
 
 .call {
+    display: flex;
     background-color: rgb(105, 105, 249);
     color: #f9faf8;
     height: 120px;
-    width: 840px
-    border-radius: 15px;
+    width: 840px;
+    border-radius: 12px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 20%;
+    margin-left: 20%
 }
 
-.signup {
-    align-items: center;
+.left {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left h4 {
+    font-size: 24px;
+    margin-bottom: 0px;
+    margin-left: 8px;
+}
+
+.left p {
+    font-size: smaller;
+    margin-top: 0px;
+    inline-size: 400px;
+    margin-left: 8px;
+}
+
+.four-right {
+    display: flex;
+    width: 480px;
+    justify-content: center;
+}
+
+#signup {
+    border: 2px solid;
+    border-color: #e5e7eb;
+    align-self: center;
 }
 
 /*Footer*/

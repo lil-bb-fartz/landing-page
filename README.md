@@ -10,6 +10,10 @@ June 18, 2024
 Added Header. Footer. Divs 1 thru 4.
 Added anchor tags for navigation buttons in Header.
 
+Edit some text.
+Rearrange some containers within other containers.
+Resize a div so I could center button.
+
 ---------CSS-----
 
 June 22, 2024
